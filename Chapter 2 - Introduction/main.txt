@@ -1,0 +1,62 @@
+-- A Standard structure of a Cpp program --
+
+1. Documentation Section::
+    This section comes first and is used to document the logic of the program that the programmer going to code.
+    
+    It can be also used to write for purpose of the program.
+    
+    Whatever written in the documentation section is the comment and is not compiled by the compiler.
+
+    Documentation Section is optional since the program can execute without them.
+
+2. Linking Section::
+    (The linking section contains two parts)
+    
+    Header Files:
+        Generally, a program includes various programming elements like built-in functions, classes, keywords, constants, operators, etc. that are already defined in the standard C++ library. In order to use such pre-defined elements in a program, an appropriate header with preprocessor directive must be included in the program.
+
+        Standard headers are specified in a program through the preprocessor directive #include. When the compiler processes the instruction #include<iostream>, it includes the contents of the stream in the program. This enables the programmer to use standard input, output, and error facilities that are provided only through the standard streams defined in <iostream>. These standard streams process data as a stream of characters, that is, data is read and displayed in a continuous flow.
+            #include<iostream>
+
+    Namespaces:
+        A namespace permits grouping of various entities like classes, objects, functions, and various C++ tokens, etc. under a single name.
+    
+        Any user can create separate namespaces of its own and can use them in any other program.
+
+        Namespaces can be accessed in multiple ways:
+            using namespace std;
+            using std :: cout;
+
+3. Definition Section::
+    It is used to declare some constants and assign them some value.
+
+    In this section, anyone can define your own datatype using primitive data types.
+
+    In  #define is a compiler directive which tells the compiler whenever the message is found to replace it with “Factorial\n”.
+    
+    typedef int K; this statement telling the compiler that whenever you will encounter K replace it by int and as you have declared k as datatype you cannot use it as an identifier.
+
+4. Global Declaration Section::
+    Here, the variables and the class definitions which are going to be used in the program are declared to make them global.
+    
+    The scope of the variable declared in this section lasts until the entire program terminates.
+    
+    These variables are accessible within the user-defined functions also.
+
+5. Function Declaration Section::
+    It contains all the functions which our main functions need.
+
+    Usually, this section contains the User-defined functions.
+
+    This part of the program can be written after the main function but for this.
+
+6. Main Function::
+    The main function tells the compiler where to start the execution of the program. The execution of the program starts with the main function.
+
+    procedural programming
+
+    All the statements that are to be executed are written in the main function.
+
+    The compiler executes all the instructions which are written in the curly braces {} which encloses the body of the main function.
+
+    Once all instructions from the main function are executed, control comes out of the main function and the program terminates and no further execution occur.
