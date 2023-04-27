@@ -1,0 +1,22 @@
+Operators: are the foundation of any programming language. We can define operators as symbols that help us to perform specific mathematical and logical computations on operands. In other words, we can say that an operator operates the operands. eg,
+    c = a + b;
+    Here, ‘+’ is the operator known as the addition operator and ‘a’ and ‘b’ are operands. The addition operator tells the compiler to add both of the operands ‘a’ and ‘b’. 
+
+C++ has many built-in operators and can be classified into 6 types:
+    1.  Assignment Operators
+    2.  Arithmetic Operators
+    3.  Increment and decrement Operators
+    4.  Compound Assignment Operators
+    5.  Relational & Comparison Operators
+    6.  Logical Operators
+    7.  Conditional ternary operator
+    8.  Comma operator
+    9.  Bitwise Operators
+    10. Explicit type casting operator
+    11. Member access operators
+    12. Other Operators
+
+Resouces:
+    1.  https://www.geeksforgeeks.org/operators-c-c/
+    1.  https://cplusplus.com/doc/tutorial/operators/
+    1.  https://en.cppreference.com/w/cpp/language/operator_precedence

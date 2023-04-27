@@ -1,0 +1,4 @@
+new opearotr
+. and -> operator
+padding and alignment
+pointers in ditails  *Ptr
