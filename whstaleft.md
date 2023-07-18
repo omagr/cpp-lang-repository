@@ -1,0 +1,5 @@
+- memory model and allocation - heap & dynamic and stage
+- bitwise oprators and oprations
+- output formating
+- implicit and exclipict convertions in opeartions and genral
+- memory map, compiler, program map, virtual memeory, ram, heap and stack , ram blahg blah
