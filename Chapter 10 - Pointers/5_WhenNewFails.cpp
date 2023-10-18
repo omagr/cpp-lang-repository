@@ -6,7 +6,6 @@ int main() {
   for (size_t i{0}; i < 10000000; ++i) {
     int *data = new int[100000000]; // ohh fuck
   }
-
   // @exception mechanism, ohhhhhhhhh owo
   for (size_t i{0}; i < 100; ++i) {
     try {
@@ -15,7 +14,6 @@ int main() {
       std::cout << "  Something went wrong : " << ex.what() << std::endl;
     }
   }
-
   // @std::nothrow, ohhhhhhhhh owo
   for (size_t i{0}; i < 100; ++i) {
     int *data = new (std::nothrow) int[1000000000];
